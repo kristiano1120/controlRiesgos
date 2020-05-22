@@ -1,0 +1,223 @@
+/* 
+    Created on : 16/09/2018, 02:03:43 PM
+    Author     : CRISTIAN
+*/
+body{
+    background-image: url(Fondo2.jpg)
+}
+p{
+   text-align:  end; 
+}
+
+#cerrarsesion{
+    color: #cc0000;
+    font-family: cursive;
+    font-size: medium;
+}
+
+h1{
+    padding: 5px;
+    
+    text-align: center;
+}
+h2{
+    text-decoration: #ffffff;
+    text-align: center;
+    font-family: cursive;
+    background-color: #ff0000;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
+    border-radius: 5px;
+    width: 415px;
+    /*padding: auto;*/
+    /*align-content: center;*/
+    margin:auto;
+    margin-bottom: 20px;
+    /*margin-left: 465px;*/
+    
+}
+/*#titulo{
+    align-items: center;
+}*/
+
+.ingreso{
+      width: 15%;
+      background-color: #ff0000;
+      border: 4px;
+      margin: auto;
+      border-radius: 10px;
+      padding: 5px;
+      box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
+      
+}
+#ingreso-hover{
+    background-color: #ffffff;
+}
+.izq1{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    font-family: cursive;
+    text-decoration: #ffffff;  
+}
+.der1{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    font-family: cursive;
+    text-decoration: #ffffff;
+}
+#usuario{
+    font-family: cursive;
+    text-decoration: #ffffff;
+}
+#contra{
+    font-family: cursive;
+    text-decoration: #ffffff;
+}
+.ingresar{
+    text-align: center;
+}
+
+.menu{
+    width: 25%;
+    background-color: #ff0000;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
+    
+}
+
+.izq2{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+}
+.der2{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+}
+.salir{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+}
+
+.menuhis{
+    width: 25%;
+    background-color: #ff0000;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
+}
+
+.consulta{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+}
+
+.reporte{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+}
+
+.volver{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+}
+
+#consulta{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+    font-family: cursive;
+    text-decoration: #ffffff;
+    color: #000000;
+}
+
+#reporte{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+    font-family: cursive;
+    text-decoration: #ffffff;
+    color: #000000;
+}
+
+#volver{
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+    font-family: cursive;
+    text-decoration: #ffffff;
+    color: #000000;
+}
+
+#salir{  
+    font-family: cursive;
+    text-decoration: #ffffff;
+    color: #000000;
+     
+}
+
+
+#atento{
+    font-family: cursive;
+    text-decoration: #ffffff;
+    color: #000000;
+    
+}
+
+
+#historico{
+    font-family: cursive;
+    text-decoration: #ffffff;
+    color: #000000;
+}
+#incidente{
+    font-family: cursive;
+    text-decoration: #ffffff;
+    color: #000000;
+}
+#accidente{
+    font-family: cursive;
+    text-decoration: #ffffff;
+    color: #000000;
+}
+#logo1{
+      
+}
+#a{
+   align-content: flex-end; 
+}
+#esquina{
+    width: 80%;
+    align-items: stretch;
+}
+
+.img1{
+    
+}
+
+
+
+
+
+
