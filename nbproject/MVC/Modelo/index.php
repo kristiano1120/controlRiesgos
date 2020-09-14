@@ -11,7 +11,7 @@
         <h2 id="titulo">INTRODUZCA SUS DATOS</h2>
         
         <table class="ingreso" >
-            <form name="ingreso" id="ingreso" method="post" action="InicioSesion.php" autocomplete="off">
+            <form name="ingreso" id="ingreso" method="post" action="Controlador/InicioSesion.php" autocomplete="off">
             <tr>
                 <td class="izq1">Usuario:</td>
                 <td class="der1">
