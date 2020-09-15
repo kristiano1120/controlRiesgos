@@ -4,20 +4,20 @@
     <head>
         <meta http-equiv="Conten:-Type" content="text/html; charset=UTF-8" />
         <title>Accidente</title>
-        <link rel="stylesheet" type="text/css" href="Vista/estilosInmel.css"/>
+        <link rel="stylesheet" type="text/css" href="/controlRiesgos/nbproject/MVC/Vista/estilosInmel.css"/>
     </head>
     <body>
         <?php
          session_start();
          if(!isset($_SESSION["user"])){
-             header("Location:index.php");
+             header("location:/./controlriesgos/nbproject/MVC/index.php");
          }
         ?>
-        <p><a id="cerrarsesion" href="CerrarSesion.php">Cerrar Sesion</a></p>
+        <p><a id="cerrarsesion" href="/controlRiesgos/nbproject/MVC/Controlador/CerrarSesion.php"">Cerrar Sesion</a></p>
         <form name="incidente" action="EnviarAccidente.php" method="POST" autocomplete="on">
             <table class="accidente" id="accidentetbl" border="3" align="center"> 
                 <tr>
-                    <td><img src="Vista/logo1.png" id="esquina"></td>                               
+                    <td><img src="/controlRiesgos/nbproject/MVC/Vista/logo1.png" id="esquina"></td>                               
                     <td><p>ACCIDENTE</p><p>Reporte de Accidente</p></td>
                     
                 </tr>

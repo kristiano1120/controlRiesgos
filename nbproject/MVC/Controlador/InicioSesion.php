@@ -4,7 +4,7 @@
     <head>
         <meta http-equiv="Conten:-Type" content="text/html; charset=UTF-8" />
         <title>Inicio Sesion</title>
-        <link rel="stylesheet" type="text/css" href="Vista/estilosInmel.css"/>
+        <link rel="stylesheet" type="text/css" href="/controlRiesgos/nbproject/MVC/Vista/estilosInmel.css"/>
     </head>
     <body>
         <?php
@@ -14,7 +14,7 @@
             
             $base=new PDO("mysql:host=localhost; dbname=inmel", "root", "");
             $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $query="select * from lector where leccodigo=:usuario and lecdocumento= :contra";
+            $query="select * from empleado where empcodigo=:usuario and empdocumento= :contra";
             $resultado=$base->prepare($query);
             $usuario= htmlentities(addslashes($_POST["usuario"]));
             $contra= htmlentities(addslashes($_POST["contra"]));
@@ -27,10 +27,10 @@
             if($numRegistro!=0){
                 session_start();
                 $_SESSION["user"]=$_POST["usuario"];
-                header("location:MenuPrincipal.php");
+                header("location:/./controlriesgos/nbproject/MVC/MOdelo/MenuPrincipal.php");
                 
             }else{
-                header("location:index.php");
+                header("location:/./controlriesgos/nbproject/MVC/index.php");
             }
         } catch (Exception $ex) {
             die("Error: ".$ex->getMessage());                     

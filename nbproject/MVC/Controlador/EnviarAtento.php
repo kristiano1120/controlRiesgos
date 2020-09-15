@@ -4,7 +4,7 @@
     <head>
         <meta http-equiv="Conten:-Type" content="text/html; charset=UTF-8" />
         <title>Enviar Atento</title>
-        <link rel="stylesheet" type="text/css" href="Vista/estilosInmel.css"/>
+        <link rel="stylesheet" type="text/css" href="/controlRiesgos/nbproject/MVC/Vista/estilosInmel.css"/>
     </head>
     <body>
         <?php
@@ -44,7 +44,7 @@
             
         }
         
-        header("location:MenuPrincipal.php");
+        header("location:/controlRiesgos/nbproject/MVC/Modelo/MenuPrincipal.php");
         
         ?>
     </body>

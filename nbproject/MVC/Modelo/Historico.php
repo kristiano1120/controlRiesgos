@@ -2,20 +2,20 @@
     <head>
         <meta http-equiv="Conten:-Type" content="text/html; charset=UTF-8" />
         <title>Historico</title>
-        <link rel="stylesheet" type="text/css" href="Vista/estilosInmel.css"/>
+        <link rel="stylesheet" type="text/css" href="/controlRiesgos/nbproject/MVC/Vista/estilosInmel.css"/>
     </head>
     <body>
-        <?php
+    <?php
          session_start();
          if(!isset($_SESSION["user"])){
-             header("Location:index.php");
+             header("location:/./controlriesgos/nbproject/MVC/index.php");
          }
         ?>
-        <p><a id="cerrarsesion" href="CerrarSesion.php">Cerrar Sesion</a></p>
+        <p><a id="cerrarsesion" href="/controlRiesgos/nbproject/MVC/Controlador/CerrarSesion.php"">Cerrar Sesion</a></p>
         <form name="historico" action="EnviarHistorico.php" method="POST" autocomplete="off">
             <table class="historico" id="historicotbl" border="3" align="center"> 
                 <tr>
-                    <td><img src="Vista/logo1.png" id="esquina"></td>                               
+                    <td><img src="/controlRiesgos/nbproject/MVC/Vista/logo1.png" id="esquina"></td>                               
                     <td><p>Histórico</p><p>Reporte de Histórico</p></td>
                     
                 </tr>
@@ -93,7 +93,7 @@
                                        
                 
                 <tr>
-                    <td>DESCRIBA LA CORRERÍA:<br><textarea name="descripcion" id="descripcion" rows="10" cols="41" maxlength="500">Explique detalladamente los aspectos a tener en cuenta para realizar esta correría</textarea> </td>
+                    <td>DESCRIBA LA CORRERÍA:<br><textarea name="descripcion" id="descripcion" rows="10" cols="41" maxlength="500" placeholder="Explique detalladamente los aspectos a tener en cuenta para realizar esta correría" ></textarea> </td>
                     <td> <input type="file" name="evidencia" value="" /> </td> 
                     
                 </tr>

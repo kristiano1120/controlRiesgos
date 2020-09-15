@@ -4,20 +4,20 @@
     <head>
         <meta http-equiv="Conten:-Type" content="text/html; charset=UTF-8" />
         <title>Menu Principal</title>
-        <link rel="stylesheet" type="text/css" href="Vista/estilosInmel.css"/>
+        <link rel="stylesheet" type="text/css" href="/controlRiesgos/nbproject/MVC/Vista/estilosInmel.css"/>
     </head>
     <body>
          <?php
          session_start();
          if(!isset($_SESSION["user"])){
-             header("Location:index.php");
+             header("location:/./controlriesgos/nbproject/MVC/index.php");
          }
         ?>
         
-            <p><a id="cerrarsesion" href="CerrarSesion.php">Cerrar Sesion</a></p>
+            <p><a id="cerrarsesion" href="/controlRiesgos/nbproject/MVC/Controlador/CerrarSesion.php">Cerrar Sesion</a></p>
         
             
-        <img id="img1" src="Vista/logo1.png"  id="logo1"/>
+        <img id="img1" src="/controlRiesgos/nbproject/MVC/Vista/logo1.png"  id="logo1"/>
         <h1>BIENVENIDO</h1>
         <h2 id="titulo">¿QUE DESEA REPORTAR?</h2>
         
