@@ -5,14 +5,14 @@
         <link rel="stylesheet" type="text/css" href="/controlRiesgos/nbproject/MVC/Vista/estilosInmel.css"/>
     </head>
     <body>
-    <?php
+        <?php
          session_start();
          if(!isset($_SESSION["user"])){
              header("location:/./controlriesgos/nbproject/MVC/index.php");
          }
         ?>
         <p><a id="cerrarsesion" href="/controlRiesgos/nbproject/MVC/Controlador/CerrarSesion.php"">Cerrar Sesion</a></p>
-        <form name="historico" action="EnviarHistorico.php" method="POST" autocomplete="off">
+        <form name="historico" action="/controlRiesgos/nbproject/MVC/Controlador/EnviarHistorico.php" method="POST" autocomplete="off">
             <table class="historico" id="historicotbl" border="3" align="center"> 
                 <tr>
                     <td><img src="/controlRiesgos/nbproject/MVC/Vista/logo1.png" id="esquina"></td>                               
@@ -58,7 +58,7 @@
                         </select></td>
                 </tr>
                     <td>DIRECCIÓN: <input type="text" name="direccion" id="direccion" size="39"></td>
-                    <td>CIUDAD: <select name="ciudad" id="ciudad">
+                    <td>MUNICIPIO: <select name="municipio" id="municipio">
                             <option>Seleccione</option>
                             <option>Medellín</option>
                             <option>Bello</option>
@@ -85,9 +85,11 @@
                             <option>Vehículo Empresa</option>
                             <option>Moto</option>
                         </select>
+                        RUTA: <input type="text" name="ruta" id="ruta" size="3" maxlength="10">
                     </td>
-                    <td>PASA POR: <input type="text" name="pasa" id="pasa" size="35" maxlength="50"</td>                        
-                    <td>VALOR PASAJE: <input type="text" name="pasaje" id="pasaje" size="10"</td>
+                    
+                    <td>PASA POR: <input type="text" name="pasa" id="pasa" size="35" maxlength="50"></td>                        
+                    <td>VALOR PASAJE: <input type="text" name="pasaje" id="pasaje" size="10"></td>
                     
                 </tr>
                                        
@@ -98,7 +100,7 @@
                     
                 </tr>
                 <tr>
-                    <td>CÓDIGO DE QUIEN REPORTA:<br> <input type="text" name="empleado" id="empleado" maxlength="10" size="3"/> </td>
+                    <td>CÓDIGO DE QUIEN REPORTA:<br> <input type="text" name="codigo" id="codigo" maxlength="10" size="3"/> </td>
                     <td>NUMERO DOCUMENTO:<br> <input type="text" name="documento" id="documento" /> </td>
                     <td>CARGO:<br> <select name="cargo" id="cargo">
                             <option>Seleccione</option>

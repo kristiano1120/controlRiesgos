@@ -18,23 +18,24 @@
         $correria=$_POST["correria"];
         $actividad=$_POST["actividad"];
         $direccion=$_POST["direccion"];
-        $ciudad=$_POST["ciudad"];
+        $municipio=$_POST["municipio"];
         $terreno=$_POST["terreno"];
         $transporte=$_POST["transporte"];
+        $ruta=$_POST["ruta"];
         $pasa=$_POST["pasa"];
         $pasaje=$_POST["pasaje"];
         $descripcion=$_POST["descripcion"];
         $evidencia=$_POST["evidencia"];
-        $empleado=$_POST["empleado"];
+        $codigo=$_POST["codigo"];
         $documento=$_POST["documento"];
         $cargo=$_POST["cargo"];
         
         try{
             
-            $consulta="INSERT INTO HISTORICO (HISFECHA, HISCICLO, HISCORRERIA, HISACTIVIDAD, HISDIRECCION, HISCIUDAD, HISTERRENO,"
-                    . "HISTRANSPORTE, HISPASA, HISPASAJE, HISNOVEDADES, HISEVIDENCIA, HISLECTOR, HISDOCUMENTO, HISCARGO)"
-                    . "VALUES ('$fecha', '$ciclo','$correria','$actividad','$direccion','$ciudad','$terreno','$transporte','$pasa',"
-                    . "'$pasaje','$descripcion','$evidencia','$empleado','$documento','$cargo')";
+            $consulta="INSERT INTO HISTORICO (HISFECHA, HISCICLO, HISCORRERIA, HISACTIVIDAD, HISDIRECCION, HISMUNICIPIO, HISTERRENO,"
+                    . "HISTRANSPORTE, HISRUTA, HISPASA, HISPASAJE, HISDESCRIPCION, HISEVIDENCIA, HISCODIGO, HISDOCUMENTO, HISCARGO)"
+                    . "VALUES ('$fecha', '$ciclo','$correria','$actividad','$direccion','$municipio','$terreno','$transporte','$ruta','$pasa',"
+                    . "'$pasaje','$descripcion','$evidencia','$codigo','$documento','$cargo')";
             $resul= mysqli_query($conexion_db, $consulta);
             
             mysqli_close($conexion_db);

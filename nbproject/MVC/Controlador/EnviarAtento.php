@@ -23,16 +23,16 @@
         $atdescri=$_POST["atdescri"];
         $atconse=$_POST["atconse"];
         $atsol=$_POST["atsol"];
-        $atlector=$_POST["atlector"];
+        $atcodigo=$_POST["atcodigo"];
         $atdoc=$_POST["atdoc"];
         $atcargo=$_POST["atcargo"];
         
         try{
         
         $consulta="INSERT INTO ATENTO (ATEFECHA, ATEHORA, ATECICLO, ATECORRERIA, ATEACTIVIDAD, ATEDIRECCION,  ATEMUNICIPIO, ATERIESGO, "
-                . "ATECONACT, ATEDESCRIPCION, ATECONSECUENCIAS, ATESOLUCION, ATELECTOR, ATEDOCUMENTO, ATECARGO) VALUES ('$atfecha','$athora',"
+                . "ATECONACT, ATEDESCRIPCION, ATECONSECUENCIAS, ATESOLUCION, ATECODIGO, ATEDOCUMENTO, ATECARGO) VALUES ('$atfecha','$athora',"
                 . "'$atciclo','$atcorreria','$atactividad','$atdireccion','$atmunicipio','$atriesgo','$atconact','$atdescri','$atconse','$atsol',"
-                . "'$atlector','$atdoc','$atcargo')";
+                . "'$atcodigo','$atdoc','$atcargo')";
         $resul= mysqli_query($conexion_db, $consulta);
         
         //$resul->execute($consulta);

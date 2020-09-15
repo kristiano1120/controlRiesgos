@@ -73,7 +73,7 @@
                     <td>ALTERNATIVAS DE SOLUCIÓN:<br><textarea name="atsol" id="atsol" rows="10" cols="41" maxlength="500"></textarea> </td>
                 </tr>
                 <tr>
-                    <td>CÓDIGO DE QUIEN REPORTA:<br> <input type="text" name="atlector" id="atlector" maxlength="10" size="3"/> </td>
+                    <td>CÓDIGO DE QUIEN REPORTA:<br> <input type="text" name="atcodigo" id="atcodigo" maxlength="10" size="3"/> </td>
                     <td>NUMERO DOCUMENTO:<br> <input type="text" name="atdoc" id="atedoc" /> </td>
                     <td>CARGO:<br> <select name="atcargo" id="atcargo">
                             <option>Seleccione</option>
