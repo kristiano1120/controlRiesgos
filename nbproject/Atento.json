@@ -1,0 +1,13 @@
+{
+    "atentos": {
+        "atento1": {
+            "nombre": "primer atento",
+            "fecha creación": "25/01/2021"
+        },
+        "atento2": {
+            "nombre": "segundo atento",
+            "fecha creación": "26/01/2021"
+        }        
+    }
+    
+}

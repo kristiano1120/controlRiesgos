@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 
+
 <html>
     <head>
         <meta http-equiv="Conten:-Type" content="text/html; charset=UTF-8" />
         <title>Gestion Riesgos Inmel</title>
         <link rel="stylesheet" type="text/css" href="Vista/estilosInmel.css"/>
     </head>
+    
     <body>
         <img src="Vista/logo1.png"  id="logo1"/> 
         <h2 id="titulo">INTRODUZCA SUS DATOS</h2>
@@ -29,7 +31,7 @@
             </tr>              
                 
         </form>            
-        </table> 
+        </table>         
         
     </body>
 </html>
