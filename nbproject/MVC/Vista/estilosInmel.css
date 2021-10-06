@@ -3,23 +3,128 @@
     Author     : CRISTIAN
 */
 body{
-    background-image: url(Fondo2.jpg)
-}
-p{
-   text-align:  end; 
+    /*background-image: url(Fondo2.jpg)*/
+    background-color: #c8e0e0;
+    
 }
 
-#cerrarsesion{
-    color: #cc0000;
-    font-family: cursive;
-    font-size: medium;
+.logo3{
+    width: 25%;
+    border-radius: 10px;
+    height: 50px;    
+}
+
+.ingreso{
+    /*background-color: #f8f9f9;*/
+    
+    margin: auto;
+    width: 20%;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
+      
+}
+
+#titulo_cont{
+    
+    width: 100%;
+    height: 60px;
 }
 
 h1{
-    padding: 5px;
-    
+    width: 100%;
     text-align: center;
+    font-size: 25px;
+    
+    
 }
+
+#usuario{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;   
+}
+
+#contra{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;   
+}
+
+#boton_ingreso{
+    width: 102%;
+    height: 30px;
+    font-size: 15px;
+}
+
+p{
+    text-align:  end; 
+}
+
+.menu_ppal{
+    margin: auto;
+    width: 20%;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
+}
+
+#atento{
+    width: 100%;
+    height: 30px;
+    font-size: 15px; 
+}
+
+#historico{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+#menu_historico{
+    margin: auto;
+    width: 20%;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
+}
+
+#reportar{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+#consultar{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+#salir{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+#bus_historico{
+    margin: auto;
+    width: 20%;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
+}
+
+#cerrarsesion{
+    color: #3e7272;
+    font-family: cursive;
+    font-size: medium;
+    text-align: end;    
+}
+
+
+
+
 h2{
     text-decoration: #ffffff;
     text-align: center;
@@ -35,23 +140,12 @@ h2{
     /*margin-left: 465px;*/
     
 }
-/*#titulo{
-    align-items: center;
-}*/
 
-.ingreso{
-      width: 15%;
-      background-color: #ff0000;
-      border: 4px;
-      margin: auto;
-      border-radius: 10px;
-      padding: 5px;
-      box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.76);
-      
-}
-#ingreso-hover{
-    background-color: #ffffff;
-}
+
+
+
+
+
 .izq1{
     font-size: xx-large;
     text-align: center;
@@ -68,17 +162,8 @@ h2{
     font-family: cursive;
     text-decoration: #ffffff;
 }
-#usuario{
-    font-family: cursive;
-    text-decoration: #ffffff;
-}
-#contra{
-    font-family: cursive;
-    text-decoration: #ffffff;
-}
-.ingresar{
-    text-align: center;
-}
+
+
 
 .menu{
     width: 25%;
@@ -103,12 +188,7 @@ h2{
     padding: 20px;
     margin: auto;
 }
-.salir{
-    text-align: center;
-    font-size: xx-large;
-    padding: 20px;
-    margin: auto;
-}
+
 
 .menuhis{
     width: 25%;
@@ -178,37 +258,20 @@ h2{
 }
 
 
-#atento{
-    font-family: cursive;
-    text-decoration: #ffffff;
-    color: #000000;
-    
-}
 
-
-#historico{
-    font-family: cursive;
-    text-decoration: #ffffff;
-    color: #000000;
-}
-#incidente{
-    font-family: cursive;
-    text-decoration: #ffffff;
-    color: #000000;
-}
-#accidente{
-    font-family: cursive;
-    text-decoration: #ffffff;
-    color: #000000;
-}
-
+#logo1{
       
+}
 #a{
    align-content: flex-end; 
 }
 #esquina{
     width: 80%;
     align-items: stretch;
+}
+
+.img1{
+    
 }
 
 
